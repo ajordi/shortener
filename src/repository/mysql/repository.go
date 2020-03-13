@@ -5,7 +5,7 @@ import (
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"
-	"github.com/tensor-programming/hex-microservice/shortener"
+	"github.com/ajordi/shortener/shortener"
 )
 
 type mysqlRepository struct {

@@ -1,4 +1,4 @@
-module github.com/tensor-programming/hex-microservice
+module github.com/ajordi/shortener
 
 go 1.13
 

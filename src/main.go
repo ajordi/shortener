@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"syscall"
 
-	h "github.com/tensor-programming/hex-microservice/api"
-	mr "github.com/tensor-programming/hex-microservice/repository/mongo"
-	mmr "github.com/tensor-programming/hex-microservice/repository/mysql"
-	rr "github.com/tensor-programming/hex-microservice/repository/redis"
+	h "github.com/ajordi/shortener/api"
+	mr "github.com/ajordi/shortener/repository/mongo"
+	mmr "github.com/ajordi/shortener/repository/mysql"
+	rr "github.com/ajordi/shortener/repository/redis"
 
-	"github.com/tensor-programming/hex-microservice/shortener"
+	"github.com/ajordi/shortener/shortener"
 )
 
 // https://www.google.com -> 98sj1-293

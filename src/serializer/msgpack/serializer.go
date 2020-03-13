@@ -2,7 +2,7 @@ package msgpack
 
 import (
 	"github.com/pkg/errors"
-	"github.com/tensor-programming/hex-microservice/shortener"
+	"github.com/ajordi/shortener/shortener"
 	"github.com/vmihailenco/msgpack"
 )
 

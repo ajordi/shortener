@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/tensor-programming/hex-microservice/shortener"
+	"github.com/ajordi/shortener/shortener"
 )
 
 func httpPort() string {
